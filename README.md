@@ -27,7 +27,7 @@ This extension includes a popup UI, background logic, and content script injecti
 
 - manifest.json – Chrome extension setup.
 
-- .env – (Optional) For storing API keys securely.
+
 
 ## Notes
 
