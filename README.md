@@ -33,6 +33,11 @@ This extension includes a popup UI, background logic, and content script injecti
 
 Credit to Joshua Alana on Youtube for the in-extension translator format idea and some code
 
-© Noah Schipper. All rights reserved.
+## License
+All rights reserved for original code.
+
+Portions of this project are inspired by or adapted from publicly shared educational material.
+
+All third-party code remains subject to its respective rights and licenses.
 
 
