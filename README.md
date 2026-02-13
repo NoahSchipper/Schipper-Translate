@@ -1,4 +1,4 @@
-# Schipper Translate – Chromium Extension
+# [Schipper Translate](https://chromewebstore.google.com/detail/schipper-translate/gemjlfdkplhobkglnecbhjjcfajfenik)
 This is a Chrome extension I built to provide quick, on-page translation for any website. It’s lightweight, easy to use, and designed to stay out of the way while giving you fast access to language translation.
 
 ## Features
