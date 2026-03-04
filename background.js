@@ -7,7 +7,6 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
             return;
         }
         
-        // Inject your script
         injectTranslateScript(tabId);
     }
 });
@@ -39,7 +38,6 @@ async function injectTranslateScript(tabId) {
             return;
         }
         
-        // Inject your content script
         await chrome.scripting.executeScript({
             target: { tabId: tabId },
             files: ['content.js']
@@ -48,7 +46,6 @@ async function injectTranslateScript(tabId) {
         console.log('Schipper Translate injected into tab:', tabId);
         
     } catch (error) {
-        // Fail silently for pages where injection isn't allowed
         console.log('Could not inject into tab:', tabId, error.message);
     }
 }
@@ -56,4 +53,5 @@ async function injectTranslateScript(tabId) {
 // Optional: Handle extension startup
 chrome.runtime.onStartup.addListener(() => {
     console.log('Schipper Translate extension started');
+
 });
