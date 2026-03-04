@@ -34,7 +34,7 @@ This extension includes a popup UI, background logic, and content script injecti
 Credit to Joshua Alana on Youtube for the in-extension translator format idea and some code
 
 ## License
-All rights reserved for original code.
+MIT License
 
 Portions of this project are inspired by or adapted from publicly shared educational material.
 
