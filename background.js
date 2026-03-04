@@ -6,7 +6,6 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
         if (tab.url.startsWith('chrome://') || tab.url.startsWith('chrome-extension://')) {
             return;
         }
-        
         injectTranslateScript(tabId);
     }
 });
@@ -55,3 +54,4 @@ chrome.runtime.onStartup.addListener(() => {
     console.log('Schipper Translate extension started');
 
 });
+
